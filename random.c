@@ -1,5 +1,10 @@
 #include <stdio.h>
 
 int main() { 
-    char halo[] = "Semangat!";
-    long int ex = sizeof(halo) 
+    int a = 1;
+
+    while(a <= 100) {
+        printf("%d ", a);
+        a++;
+    }
+}
