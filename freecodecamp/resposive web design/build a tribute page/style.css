@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&family=Syne&display=swap');
+/* 
+font-family: 'Poppins', sans-serif;
+font-family: 'Syne', sans-serif; 
+*/
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-around;
+   height: 80px;
+   align-items: center;
+   background-color: #00171f;
+}
+
+/* Navbar */
+.navbar .brand-name {
+   font-size: 30px;
+   font-weight: 700;
+   color: #ffffff;
+}
+
+.navbar-list {
+   width: 20%;
+}
+
+.navbar-list .list {
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+   font-size: 25px;
+}
+
+.navbar-list .list a {
+   text-decoration: none;
+   color: #ffffff;
+}
+
+/* Home */
+.home {
+   height: 485px;
+   width: 100%;
+   background-color: #00171f;
+   display: flex;
+}
+
+.home .left-side-home {
+   width: 45%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.title-section {
+   color: #ffffff;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#title {
+   font-size: 64px;
+   font-weight: 700;
+}
+
+#subtitle {
+   font-size: 36px;
+   font-style: italic;
+}
+
+.home .right-side-home {
+   width: 55%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #00171f;
+}
+
+#img-div {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column-reverse;
+   color: #fff;
+}
+
+#img-div img {
+   width: 700px;
+}
+
+/* About */
+.about {
+   width: 100%;
+   height: 448px;
+   background-color: #00171f;
+   display: flex;
+}
+
+.left-side-about {
+   width: 45%;
+   background: url(image/vergil2.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+.right-side-about {
+   width: 55%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+}
+
+#tribute-info {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+#about-title {
+   font-size: 36px;
+   font-weight: 700;
+   margin-bottom: 20px;
+}
+
+#about-info {
+   width: 700px;
+   font-size: 20px;
+   text-align: justify;
+}
