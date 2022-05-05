@@ -9,7 +9,7 @@
 * {
     margin: 0;
     padding: 0;
-    transition: all 2s;
+    transition: all .5s;
 }
 
 body {
@@ -104,4 +104,96 @@ body {
 
 #project-profile {
     width: 52px;
+}
+
+.icon-header {
+    display: none;
+}
+
+#line1 {
+    width: 294px;
+    margin-top: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 23px;
+    height: 2px;
+    background-color: #C6C6C6;
+    border-radius: 1px;
+}
+
+
+
+
+
+/* Media 481 - 768px */
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    #header {
+        height: 389px;
+    }
+
+    #header-image {
+        height: 169px;
+    }
+
+    #profile-image {
+        width: 110px;
+        height: 110px;
+        top: -55px;
+        margin-left: 62px;
+    }
+
+    #profile-header {
+        margin-left: 62px;
+        margin-top: -40px;
+    }
+
+    #profile-name {
+        font-size: 28px;
+    }
+
+    #name-desc {
+        font-size: 16px;
+    }
+
+    #sub-profile {
+        margin-top: 15px;
+        margin-left: 62px;
+    }
+
+    .profile-sub {
+        font-size: 13px;
+        height: 26px;
+    }
+
+    #dots {
+        width: 28.52px;
+    }
+
+    #about-profile {
+        width: 70px;
+    }
+    
+    #experience-profile {
+        width: 95px;
+    }
+    
+    #project-profile {
+        width: 75px;
+    }
+
+    .icon-header {
+        display: inline-flex;
+    }
+    
+    #line1 {
+        width: 294px;
+        margin-top: 28px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 23px;
+        height: 2px;
+        background-color: #C6C6C6;
+        border-radius: 1px;
+    }
+    
 }
