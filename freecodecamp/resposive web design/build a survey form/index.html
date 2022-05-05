@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Survey Form</title>
+      <link rel="stylesheet" href="style.css" />
+   </head>
+   <body>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">
+         "Thank you for taking the time to help us improve the platform"
+      </p>
+
+      <!-- Form Body -->
+      <div class="container" id="container">
+         <form action="" id="survey-form">
+            <!-- Label Name -->
+            <label for="name" id="name-label">Name</label><br />
+            <input
+               type="name"
+               name="name"
+               id="name"
+               placeholder="Enter your name"
+               required
+            /><br />
+
+            <!-- Label Email -->
+            <label for="email" id="email-label">Email</label> <br />
+            <input
+               type="email"
+               name="email"
+               id="email"
+               placeholder="Enter your email"
+               required
+            /><br />
+
+            <!-- Label Age -->
+            <label for="age" id="number-label">Enter your age</label> <br>
+            <input 
+               type="number" 
+               name="age" 
+               id="number" 
+               min="10"
+               max="99"
+               placeholder="Enter your age" 
+               required
+            /> <br>
+
+            <!-- select role -->
+            <label for="role" id="select role">Role</label> <br>
+            <select 
+               name="role" 
+               id="dropdown"
+               required>
+               <option disabled selected value>Select Role</option>
+               <option value="Marksman">Marksman</option>
+               <option value="Mage">Mage</option>
+               <option value="Tank">Tank</option>
+               <option value="Fighter">Fighter</option>
+               <option value="Assassin">Assassin</option>
+            </select> <br>
+
+            <!-- activity label -->
+            <label for="activity">Activity</label><br>
+            <label>
+               <input
+                 name="activity"
+                 value="daily"
+                 type="radio"
+                 class="input-radio"
+                 checked
+               /> Daily</label
+             > <br>
+
+             <label>
+               <input
+                 name="activity"
+                 value="weekly"
+                 type="radio"
+                 class="input-radio"
+               /> Weekly</label
+             > <br>
+
+             <label>
+               <input
+                 name="activity"
+                 value="weekly"
+                 type="radio"
+                 class="input-radio"
+               /> Monthly</label
+             ><br>
+
+             <!-- Fav Hero Checkbox -->
+             <label for="fav-hero">Favorite Hero</label><br>
+               <label>
+                  <input
+                     name="prefer"
+                     value="gusion"
+                     type="checkbox"
+                     class="input-checkbox"
+                  />Gusion</label
+               ><br>
+               <label>
+                  <input
+                     name="prefer"
+                     value="lunox"
+                     type="checkbox"
+                     class="input-checkbox"
+                  >Lunox</label
+               ><br>
+               <label>
+                  <input
+                     name="prefer"
+                     value="grock"
+                     type="checkbox"
+                     class="input-checkbox"
+                  >Grock</label
+               ><br>
+            
+               <!-- Textarea -->
+               <label for="comment">Any comments or suggestions?</label><br>
+               <textarea
+                 id="comments"
+                 class="input-textarea"
+                 name="comment"
+                 placeholder="Enter your comment here..."
+               ></textarea><br>
+
+               <!-- submit -->
+               <button type="submit" id="submit" class="submit-button">
+                  Submit
+                </button>
+         </form>
+      </div>
+   </body>
+</html>
