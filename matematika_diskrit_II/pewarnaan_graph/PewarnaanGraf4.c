@@ -20,13 +20,13 @@ int main() {
     }
 
 
-    printf("\nTampilan Dalam Matriks Ketetanggaan: \n");
-    for (int i = 0; i < jumvertex; i++) {
-        for (int j = 0; j < jumvertex; j++) {
-            printf("%d ", graph[i][j]);
+        printf("\nTampilan Dalam Matriks Ketetanggaan: \n");
+        for (int i = 0; i < jumvertex; i++) {
+            for (int j = 0; j < jumvertex; j++) {
+                printf("%d ", graph[i][j]);
+            }
+            printf("\n"); 
         }
-        printf("\n"); 
-    }
     printf("\n"); 
 
     // Pewarnaan Graf

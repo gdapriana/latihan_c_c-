@@ -1,74 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apriana | Poertfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
-    <!-- Header -->
-    <div class="header" id="header">
-        <div class="header-image" id="header-image"></div>
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
 
-        <div class="profile-image" id="profile-image"></div>
+      <!-- AOS css -->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-        <div class="profile-header" id="profile-header">
-            <div class="profile-name" id="profile-name">
-                <p>I Komang Gede Apriana</p>
+      <!-- style css -->
+      <link rel="stylesheet" href="css/laptop.css" />
+      <link rel="stylesheet" href="css/tablet.css" />
+      <link rel="stylesheet" href="css/desktop.css" />
+      <link rel="stylesheet" href="css/style.css" />
+      <link rel="stylesheet" href="css/tv.css" />
+
+      <!-- Boxicon CSS -->
+      <link
+         href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+         rel="stylesheet"
+      />
+   </head>
+   <body>
+      <!-- ! container -->
+
+      <div class="container" id="container">
+         <!-- *Header -->
+         <section class="header" id="header">
+            <!-- Image Header -->
+            <div
+               data-aos="fade-down"
+               data-aos-duration="1500"
+               class="header-image"
+               id="header-image"
+            ></div>
+            <!-- Profile Bar -->
+            <div class="profile-bar" id="profile-bar">
+               <!-- Profile Image -->
+               <div class="profile-image" id="profile-image"></div>
+
+               <!-- profile name, desc name, and sub profile -->
+               <div class="name-profile" id="name-profile">
+                  I Komang Gede Apriana
+               </div>
+
+               <div class="desc-profile" id="desc-profile">
+                  Udayana Computer Science 21
+               </div>
+
+               <div class="sub-profile" id="sub-profile">
+                  <div class="dots sub-header" id="dots">
+                     <a href="#">
+                        <i class="bx bx-dots-horizontal-rounded"></i>
+                     </a>
+                  </div>
+
+                  <div class="about-header sub-header" id="about-header">
+                     <a href="#">
+                        About <i class="bx bxs-user-rectangle"></i>
+                     </a>
+                  </div>
+
+                  <div
+                     class="experience-header sub-header"
+                     id="experience-header"
+                  >
+                     <a href="#">
+                        Experience <i class="bx bxl-stack-overflow"></i>
+                     </a>
+                  </div>
+
+                  <div class="project-header sub-header" id="project-header">
+                     <a href="#"> Project <i class="bx bx-desktop"></i> </a>
+                  </div>
+
+                  <div class="skills-header sub-header" id="skills-header">
+                     <a href="#"> Skills <i class="bx bx-stats"></i> </a>
+                  </div>
+
+                  <div class="contact-header sub-header" id="contact-header">
+                     <a href="#"> Contact <i class="bx bxs-contact"></i> </a>
+                  </div>
+               </div>
+
+               <!-- divider -->
+            <div data-aos-duration="2000" data-aos="fade-right" class="line line-header" id="line"></div>
             </div>
-            <div class="name-desc" id="name-desc">
-                <p>Udayana Computer Science 21</p>
+            
+         </section>
+
+         <!-- Header End -->
+
+         <!-- About -->
+         <section class="about" id="about">
+            <div class="about-title" id="about-title">About me</div>
+            <div data-aos-duration="2000" data-aos="fade-right" class="about-desc" id="about-desc">
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni a
+               sapiente, quibusdam aut iure voluptatibus. Distinctio doloribus,
+               excepturi ab, ratione itaque at totam mollitia iste suscipit
+               commodi tempore. Laborum, blanditiis.
             </div>
-        </div>
-
-        <div class="sub-profile" id="sub-profile">
-            <a href="#">
-                <div class="dots profile-sub" id="dots">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </a>
-            <div class="about-profile profile-sub" id="about-profile">
-                <a href="#">About 
-                    <div class="icon-header">
-                        <i class='bx bx-message-alt-check'></i>
-                    </div>
-                </a>
+            <div class="more-about" id="more-about">
+               <a href="#">
+                  More About Me <i class='bx bx-link-external'></i>
+               </a>
             </div>
-            <div class="experience-profile profile-sub" id="experience-profile">
-                <a href="#">Experience
-                    <div class="icon-header">
-                        <div class="icon-header">
-                            <i class='bx bx-line-chart'></i>
-                        </div>
-                    </div>
-                </a>
+
+            <!-- divider -->
+            <div data-aos-duration="2000" data-aos="fade-right" class="line" id="line"></div>
+         </section>
+         <!-- About End -->
+
+         <!-- Experience -->
+         <section class="experience" id="experience">
+            <div class="about-title" id="about-title">Experience</div>
+            <div class="experience-section" id="experience-section">
+               <div data-aos-duration="1500" data-aos="fade-up" class="exp exp1" id="exp1"></div>
+               <div data-aos-delay="300" data-aos-duration="1500" data-aos="fade-up" class="exp exp2" id="exp2"></div>
+               <div data-aos-delay="300" data-aos-duration="1500" data-aos="fade-up" class="exp exp3" id="exp3"></div>
             </div>
-            <div class="project-profile profile-sub" id="project-profile">
-                <a href="#">Project
-                    <div class="icon-header">
-                        <div class="icon-header">
-                            <i class='bx bx-desktop'></i>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
+         </section>
+         <!-- Experience End -->
 
-        <div class="line-divider" id="line1"></div>
-    </div>
+         <!-- Project -->
+         <section class="project" id="project"></section>
+         <!-- Project End -->
 
-    <!-- about -->
-    <div class="about" id="about">
+         <!-- Skills -->
+         <section class="skills" id="skills"></section>
+         <!-- Skills End -->
 
-    </div>
+         <!-- Study -->
+         <section class="study" id="study"></section>
+         <!-- Study End -->
 
-    
-    
-    
-</body>
+         <!-- Contact -->
+         <section class="contact" id="contact"></section>
+         <!-- End Contact -->
+      </div>
+
+      <!-- container end -->
+
+      <!-- main javascript -->
+      <script src="js/script.js"></script>
+
+      <!--AOS Javascript -->
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+         AOS.init();
+      </script>
+   </body>
 </html>

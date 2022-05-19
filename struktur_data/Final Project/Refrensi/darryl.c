@@ -563,7 +563,7 @@ int main () {
 	int num;
     int a;
     FILE *fp,*fd;
-    fp = fopen("pin.txt","r");
+    fp = fopen("pin.txt","w");
     while(!feof(fp)){
         fscanf(fp,"%lld %d %d",&data[i].nomer,&data[i].pin1,&data[i].saldo);
         i++;

@@ -1,12 +1,13 @@
 #include <stdio.h>
-#define MAX 50;
+#include <stdbool.h>
+#define MAX_STACK 50
 
 // ADT (abstract data type)
-typedef struct {
-    int pin, saldo;
-    char nama[30];
-} nasabah;
 
+
+
+
+---
 int menu() {
     int pilih;
     puts("\n\t-----------------------------------------");

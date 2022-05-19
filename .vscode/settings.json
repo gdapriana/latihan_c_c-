@@ -1,7 +1,12 @@
 {
    "files.associations": {
       "numbers": "c",
-      "random": "c"
+      "random": "c",
+      "array": "c",
+      "deque": "c",
+      "list": "c",
+      "vector": "c",
+      "string_view": "c"
    },
    "python.testing.pytestArgs": ["."],
    "python.testing.unittestEnabled": false,

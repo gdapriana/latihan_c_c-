@@ -1,0 +1,78 @@
+
+/* Tablet */
+/* tablet */
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    #container {
+        height: 200vh;
+
+    }
+
+    #header {
+        height: 389px;
+        
+    }
+
+    #header-image {
+        height: 169px;
+    }
+
+    #profile-bar {
+        top: -55px;
+    }
+    
+    #profile-image {
+        width: 110px;
+        height: 110px;
+    }
+
+    #name-profile {
+        font-size: 28px;
+        margin: 12px 0 8px 0;
+    }
+
+    #desc-profile {
+        font-size: 16px;
+    }
+
+    #sub-profile {
+        margin: 13px 0;
+        font-size: 16px;
+    }
+
+    #project-header {
+        display: inline;
+    }
+
+
+
+
+    /* ABOUT */
+     #about-title {
+        font-size: 20px;
+        margin: 15px 0;
+     }
+     
+     #about-desc {
+        font-size: 15px;
+     }
+
+     #more-about {
+        width: 175px;
+     }
+     
+     #more-about a {
+        font-size: 18px;
+     }
+
+
+
+     /* EXPERIENCE */
+    #experience-section {
+        gap: 10px;
+    }
+    
+    #exp1, #exp2, #exp3 {
+        width: 220px;
+        height: 220px;
+    }
+}

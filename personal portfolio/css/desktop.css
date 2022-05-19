@@ -1,0 +1,73 @@
+/* desktop */
+@media screen and (max-width: 1200px) and (min-width: 1025px) {
+    #container {
+        width: 710px;
+    }
+
+    #header {
+        height: 484px;
+    }
+
+    #header-image {
+        height: 195px;
+    }
+
+    #profile-bar {
+        top: -73px;
+    }
+    
+    #profile-image {
+        width: 146px;
+        height: 146px;
+    }
+
+    #name-profile {
+        font-size: 32px;
+        margin: 15px 0 10px 0;
+    }
+
+    #desc-profile {
+        font-size: 20px;
+    }
+
+    #sub-profile {
+        margin: 16px 0;
+        font-size: 16px;
+    }
+
+    #project-header, #skills-header, #contact-header {
+        display: inline;
+    }
+
+
+
+    /* ABOUT */
+    #about-title {
+        font-size: 30px;
+        margin: 23px 0;
+     }
+     
+     #about-desc {
+        font-size: 20px;
+     }
+
+     #more-about {
+        width: 230px;
+        height: 45px;
+     }
+     
+     #more-about a {
+        font-size: 24px;
+     }
+
+
+     /* EXPERIENCE */
+    #experience-section {
+        gap: 13px;
+    }
+    
+    #exp1, #exp2, #exp3 {
+        width: 250px;
+        height: 250px;
+    }
+}

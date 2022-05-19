@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap');
+
+/*  font-family: 'Quicksand', sans-serif; 
+    light 300
+    medium 500
+    bold 700
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: all .5s;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#header {
+    height: 301px;
+    width: 100%;
+}
+
+#header-image {
+    width: 100%;
+    height: 143px;
+    background-image: url("img/Header\ Image.png");
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 0 0 20px 20px;
+}
+
+#profile-image {
+    width: 82px;
+    height: 82px;
+    background-color: #DEC0F1;
+    border-radius: 50%;
+    position: relative;
+    top: -41px;
+    margin-left: 23px;
+    border: solid #fff;
+}
+
+#profile-header {
+    margin-left: 23px;
+    margin-top: -30px;
+    color: #464646;
+}
+
+#profile-name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#name-desc {
+    font-size: 11px;
+    margin-top: 6px;
+    font-weight: 700;
+}
+
+#sub-profile {
+    display: flex;
+    margin-top: 12px;
+    margin-left: 23px;
+}
+
+.profile-sub {
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 21px;
+    background-color: #7161EF;
+    color: #fff;
+    border: solid 1px #E6E3FF;
+}
+
+.profile-sub a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#dots {
+    width: 25px;
+    background-color: #F3F3F3;
+}
+
+#dots span {
+    border-radius: 50%;
+    margin: 1px;
+    width: 3px;
+    height: 3px;
+    background-color: #C4C4C4;
+}
+
+#about-profile {
+    width: 47px;
+}
+
+#experience-profile {
+    width: 69px;
+}
+
+#project-profile {
+    width: 52px;
+}
+
+.icon-header, .skills, .contact {
+    display: none;
+}
+
+#line1 {
+    width: 90%;
+    margin: 28px 23px;
+    height: 1px;
+    background-color: #C6C6C6;
+    border-radius: 1px;
+}
+
+#about {
+    margin: 60px 23px auto;
+    height: 210px;
+    width: 80%;
+    color: #464646;
+}
+
+#about-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+#about-desc {
+    font-size: 15px;
+}
+
+#about-more {
+    margin: 30px 0;
+    background-color: #7161EF;
+    width: 140px;
+    padding: 10px;
+    border-radius: 7px;
+    border: solid 1px #E6E3FF;
+}
+
+#about-more:hover {
+    transform: scale(1.05);
+}
+
+#about-more a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+
+
+/* Media 481 - 768px */
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    #header {
+        height: 389px;
+    }
+
+    #header-image {
+        height: 169px;
+    }
+
+    #profile-image {
+        width: 110px;
+        height: 110px;
+        top: -55px;
+        margin-left: 62px;
+    }
+
+    #profile-header {
+        margin-left: 62px;
+        margin-top: -40px;
+    }
+
+    #profile-name {
+        font-size: 28px;
+    }
+
+    #name-desc {
+        font-size: 16px;
+    }
+
+    #sub-profile {
+        margin-top: 15px;
+        margin-left: 62px;
+    }
+
+    .profile-sub {
+        font-size: 13px;
+        height: 26px;
+    }
+
+    #dots {
+        width: 28.52px;
+    }
+
+    #about-profile {
+        width: 70px;
+    }
+    
+    #experience-profile {
+        width: 95px;
+    }
+    
+    #project-profile {
+        width: 75px;
+    }
+
+    .icon-header {
+        display: inline-flex;
+    }
+    
+    #line1 {
+        width: 80%;
+        /* margin-top: 28px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 23px; */
+        margin-left: 62px;
+        height: 2px;
+        background-color: #C6C6C6;
+        border-radius: 1px;
+    }
+
+    #about {
+        margin: 60px 63px auto;
+        height: 210px;
+        width: 80%;
+        color: #464646;
+        height: 210px;;
+    }
+    
+    #about-title {
+        font-size: 25px;
+        font-weight: 700;
+        margin: 10px 0;
+    }
+    
+    #about-desc {
+        font-size: 17px;
+    }
+    
+}
+
+
+/* Media 769 - 1024px */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    #header {
+        height: 463px;
+    }
+
+    #header-image {
+        height: 198px;
+        width: 700px;
+        margin: auto;
+    }
+
+    #profile-image {
+        width: 133px;
+        height: 133px;
+        top: -66.5px;
+        margin-left: 170px;
+    }
+
+    #profile-header {
+        margin-left: 170px;
+        margin-top: -30px;
+    }
+
+    #profile-name {
+        font-size: 32px;
+    }
+
+    #name-desc {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    #sub-profile {
+        margin-top: 25px;
+        margin-left: 170px;
+    }
+    
+    .profile-sub {
+        font-size: 15px;
+        height: 30px;
+    }
+
+    #dots {
+        width: 28.52px;
+    }
+
+    #about-profile {
+        width: 77px;
+    }
+    
+    #experience-profile {
+        width: 110px;
+    }
+    
+    #project-profile {
+        width: 85px;
+    }
+
+    #skills-profile {
+        width: 70px;
+    }
+
+    .icon-header, .skills {
+        display: inline-flex;
+    }
+
+    #line1 {
+        width: 60%;
+        margin-left: 170px;
+    }
+
+    #about {
+        margin: 60px 170px auto;
+        height: 210px;
+        width: 80%;
+        color: #464646;
+        height: 210px;;
+    }
+    
+    #about-title {
+        font-size: 25px;
+        font-weight: 700;
+        margin: 10px 0;
+    }
+    
+    #about-desc {
+        font-size: 17px;
+    }
+
+    #about {
+        margin: 60px 96px auto;
+        height: 210px;
+        width: 80%;
+        color: #464646;
+        height: 210px;;
+    }
+    
+    #about-title {
+        font-size: 25px;
+        font-weight: 700;
+        margin: 10px 0;
+    }
+    
+    #about-desc {
+        font-size: 19px;
+    }
+
+    #about-more {
+        margin: 30px 0;
+        background-color: #7161EF;
+        width: 145px;
+        padding: 10px;
+        border-radius: 7px;
+    }
+
+    #about-more a {
+        font-size: 17px;
+    }
+}
+
+/* Media > 1025*/
+@media screen and (min-width: 1025px) {
+    #header {
+        height: 463px;
+    }
+
+    #header-image {
+        height: 198px;
+    }
+
+    #profile-image {
+        width: 133px;
+        height: 133px;
+        top: -66.5px;
+        margin-left: 96px;
+    }
+
+    #profile-header {
+        margin-left: 96px;
+        margin-top: -30px;
+    }
+
+    #profile-name {
+        font-size: 32px;
+    }
+
+    #name-desc {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    #sub-profile {
+        margin-top: 25px;
+        margin-left: 96px;
+    }
+    
+    .profile-sub {
+        font-size: 15px;
+        height: 30px;
+    }
+
+    #dots {
+        display: none;
+        width: 28.52px;
+    }
+
+    #about-profile {
+        width: 77px;
+    }
+    
+    #experience-profile {
+        width: 110px;
+    }
+    
+    #project-profile {
+        width: 85px;
+    }
+
+    #skills-profile {
+        width: 70px;
+    }
+
+    .contact {
+        width: 85px;
+    }
+
+    .icon-header, .skills, .contact {
+        display: inline-flex;
+    }
+
+    #line1 {
+        width: 80%;
+        margin-left: 96px;
+    }
+
+    #about {
+        margin: 60px 96px auto;
+    }
+    
+    #about-title {
+        font-size: 27px;
+    }
+    
+    #about-desc {
+        font-size: 20px;
+    }
+
+    #about-more {
+        width: 165px;
+    }
+
+    #about-more a {
+        font-size: 19px;
+    }
+}

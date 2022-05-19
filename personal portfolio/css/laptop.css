@@ -1,0 +1,71 @@
+/* laptop */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    #container {
+        width: 623px;
+    }
+
+    #header {
+        height: 463px;
+    }
+
+    #header-image {
+        height: 198px;
+    }
+
+    #profile-bar {
+        top: -67px;
+    }
+    
+    #profile-image {
+        width: 134px;
+        height: 134px;
+    }
+
+    #name-profile {
+        font-size: 32px;
+        margin: 15px 0 10px 0;
+    }
+
+    #desc-profile {
+        font-size: 18px;
+    }
+
+    #sub-profile {
+        margin: 15px 0;
+        font-size: 18px;
+    }
+
+    #project-header, #skills-header{
+        display: inline;
+    }
+
+
+
+    /* ABOUT */
+    #about-title {
+        font-size: 27px;
+        margin: 20px 0;
+     }
+     
+     #about-desc {
+        font-size: 18px;
+     }
+
+     #more-about {
+        width: 200px;
+     }
+     
+     #more-about a {
+        font-size: 21px;
+     }
+
+     /* EXPERIENCE */
+    #experience-section {
+        gap: 12px;
+    }
+    
+    #exp1, #exp2, #exp3 {
+        width: 228px;
+        height: 228px;
+    }
+}

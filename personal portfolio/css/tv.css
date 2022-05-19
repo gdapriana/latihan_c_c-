@@ -1,0 +1,74 @@
+/* Tv */
+@media screen and (min-width: 1201px) {
+    .container {
+        width: 900px;
+    }
+
+    #header {
+        height: 500px;
+    }
+
+    #header-image {
+        height: 220px;
+    }
+
+    #profile-bar {
+        top: -75px;
+    }
+    
+    #profile-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    #name-profile {
+        font-size: 36px;
+        margin: 15px 0 10px 0;
+    }
+
+    #desc-profile {
+        font-size: 22px;
+    }
+
+    #sub-profile {
+        margin: 17px 0;
+        font-size: 20px;
+    }
+
+    #project-header, #skills-header, #contact-header {
+        display: inline;
+    }
+
+
+    
+    /* ABOUT */
+    #about-title {
+        font-size: 30px;
+        margin: 25px 0;
+     }
+     
+     #about-desc {
+        font-size: 24px;
+     }
+
+     #more-about {
+        width: 245px;
+        height: 49px;
+     }
+     
+     #more-about a {
+        font-size: 26px;
+     }
+
+
+
+     /* EXPERIENCE */
+    #experience-section {
+        gap: 13px;
+    }
+    
+    #exp1, #exp2, #exp3 {
+        width: 250px;
+        height: 250px;
+    }
+}
